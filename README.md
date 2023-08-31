@@ -1,29 +1,16 @@
-Base64 Encoder
-A simple web application to encode text/data to base64 format.
+<!-- index.html --> <!DOCTYPE html> <html> <head> <title>Base64 Encoder README</title> </head> <body> <header> <h1>Base64 Encoder</h1> </header> <section> <h2>Features</h2> <ul> <li>Encode strings to base64 with one click</li> <li>Copy encoded output to clipboard</li> <li>Notify user with toast message on copy</li> <li>Responsive design adapts to any screen size</li> </ul> </section> <section> <h2>Getting Started</h2>
+<h3>Prerequisites</h3>  
+<p>A modern web browser (Chrome, Firefox etc.)</p>
 
-Features
-Encode strings to base64 with one click
-Copy encoded output to clipboard
-Notify user with toast message on copy
-Responsive design adapts to any screen size
-Getting Started
-Prerequisites
-A modern web browser (Chrome, Firefox etc.)
-Running locally
-Clone or download the repository
-Open index.html in a web browser
-Live Demo
+<h3>Running locally</h3>
+<ol>
+  <li>Clone or download the repository</li>  
+  <li>Open <code>index.html</code> in a web browser</li>
+</ol>
 
-Technology Stack
-HTML, CSS
-JavaScript
-Credits
-Created by Mitku Dubale - feel free to use and modify the code!
-
-Future Scope
-Some interesting additions/features that could be added:
-
-Decode base64 back to string
-File input to encode binary files
-Input validation and error handling
-Additional encoding formats like hex, json etc.
+<h3>Live Demo</h3>
+<p>
+  A live version is hosted on Netlify:  
+  <a href=""></a>
+</p>
+</section> <section> <h2>Technology Stack</h2> <p>HTML, CSS, JavaScript, Bootstrap</p> </section> <footer> <p>&copy; Created By: Mitku Dubale</p> </footer> </body> </html>
