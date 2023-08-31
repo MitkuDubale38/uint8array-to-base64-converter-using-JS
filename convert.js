@@ -4,15 +4,6 @@ function encode() {
 
   // Encode to base64
   var base64 = bufferToBase64(input);
-
-  //   let lines = output.innerText.split("\n");
-
-  //   if (lines.length > 10) {
-  //     output.classList.add("hidden");
-  //   } else {
-  //     output.innerText = encodedString;
-  //   }
-
   // Output result
   document.getElementById("output").innerText = base64;
 }
@@ -34,4 +25,16 @@ function copyToClipboard() {
 
   // Copy text
   navigator.clipboard.writeText(output.innerText);
+  $("#msg").text("Copied!");
+  $("#toast").addClass("show");
+
+  // Hide after 2 secs
+  setTimeout(() => {
+    $("#toast").removeClass("show");
+    document.getElementById("toast").classList.add("hidden");
+  }, 2000);
 }
+input.addEventListener("input", () => {
+  input.style.height = "auto";
+  input.style.height = `${input.scrollHeight}px`;
+});

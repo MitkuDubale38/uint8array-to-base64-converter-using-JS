@@ -21,9 +21,20 @@
         margin-bottom: 20px;
     }
     
+    input,
+    textarea {
+        width: 100%;
+        height: 200px;
+        overflow-wrap: break-word;
+    }
+    
     input {
         border: 1px solid #ddd;
         border-radius: 3px;
+        box-sizing: border-box;
+        width: 400px;
+        height: 100px;
+        resize: none;
     }
     
     button {
@@ -56,10 +67,6 @@
         margin-top: 10px;
     }
     
-    .hidden {
-        display: none;
-    }
-    
     header {
         background: cornflowerblue;
         color: #fff;
@@ -75,4 +82,24 @@
         max-width: 400px;
         margin: 0 auto;
         padding: 30px;
+    }
+    
+    #toast {
+        display: flex;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    #toast.show {
+        opacity: 1;
+        transition: opacity 250ms;
+        background: cornflowerblue;
+        color: #fff;
+    }
+    
+    #toast.hidden {
+        display: none;
     }

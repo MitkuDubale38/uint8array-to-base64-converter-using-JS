@@ -9,12 +9,16 @@
   </header>
   <body>
     <div id="app">
-      <input type="text" id="input" />
+      <textarea type="text" id="input" /> </textarea>
       <button onclick="encode()">Encode</button>
       <button onclick="copyToClipboard()">Copy to Clipboard</button>
       <pre id="output"></pre>
     </div>
+    <div id="toast">
+        <span id="msg"></span> 
+      </div>
 
     <script src="./convert.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </body>
 </html>
