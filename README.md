@@ -1,4 +1,4 @@
-<!-- index.html --> <!DOCTYPE html> <html> <head> <title>Base64 Encoder README</title> </head> <body> <header> <h1>Base64 Encoder</h1> </header> <section> <h2>Features</h2> <ul> <li>Encode strings to base64 with one click</li> <li>Copy encoded output to clipboard</li> <li>Notify user with toast message on copy</li> <li>Responsive design adapts to any screen size</li> </ul> </section> <section> <h2>Getting Started</h2>
+<!-- index.html --> <!DOCTYPE html> <html>  <header> <h1>Base64 Encoder</h1> </header> <section> <h2>Features</h2> <ul> <li>Encode strings to base64 with one click</li> <li>Copy encoded output to clipboard</li> <li>Notify user with toast message on copy</li> <li>Responsive design adapts to any screen size</li> </ul> </section> <section> <h2>Getting Started</h2>
 <h3>Prerequisites</h3>  
 <p>A modern web browser (Chrome, Firefox etc.)</p>
 
