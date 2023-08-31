@@ -13,4 +13,4 @@
   A live version is hosted on Netlify:  
   <a href=""></a>
 </p>
-</section> <section> <h2>Technology Stack</h2> <p>HTML, CSS, JavaScript, Bootstrap</p> </section> <footer> <p>&copy; Created By: Mitku Dubale</p> </footer> </body> </html>
+</section> <section> <h2>Technology Stack</h2> <p>HTML, CSS, JavaScript</p> </section> <footer> <p>&copy; Created By: Mitku Dubale</p> </footer> </body> </html>
