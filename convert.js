@@ -5,6 +5,14 @@ function encode() {
   // Encode to base64
   var base64 = bufferToBase64(input);
 
+  //   let lines = output.innerText.split("\n");
+
+  //   if (lines.length > 10) {
+  //     output.classList.add("hidden");
+  //   } else {
+  //     output.innerText = encodedString;
+  //   }
+
   // Output result
   document.getElementById("output").innerText = base64;
 }
@@ -17,4 +25,13 @@ function bufferToBase64(buf) {
     .join("");
 
   return btoa(binstr);
+}
+
+// Clipboard function
+function copyToClipboard() {
+  // Select the output text
+  var output = document.getElementById("output");
+
+  // Copy text
+  navigator.clipboard.writeText(output.innerText);
 }
